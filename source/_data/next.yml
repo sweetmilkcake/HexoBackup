@@ -47,7 +47,7 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
+  categories: /categories/
   #about: /about/
   archives: /archives/
   tags: /tags/
@@ -94,6 +94,7 @@ scheme: Gemini
   #LinkLabel: Link
 social:
   GitHub: https://github.com/sweetmilkcake
+  JianShu: http://www.jianshu.com/u/f2fb4c57aa11
 
 # Social Links Icons
 # Icon Mapping:
@@ -117,13 +118,15 @@ social_icons:
   Instagram: instagram
   StackOverflow: stack-overflow
   Weibo: weibo
+  JianShu: book
 
 # Blog rolls
-#links_title: Links
-#links_layout: block
+links_title: Links
+links_layout: block
 #links_layout: inline
-#links:
-  #Title: http://example.com/
+links:
+  <ul><li>Raincal's Blog</li></ul>: https://raincal.top/
+  <ul><li>Rainy's Blog</li></ul>: https://rainylog.com/
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
@@ -166,13 +169,13 @@ sidebar:
   offset_float: 12
 
   # Back to top in sidebar
-  b2t: false
+  b2t: true
 
   # Scroll percent label in b2t button
-  scrollpercent: false
+  scrollpercent: true
   
   # Enable sidebar on narrow view
-  onmobile: false
+  onmobile: true
 
 
 # ---------------------------------------------------------------
@@ -318,7 +321,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: e56215537ce5e9c54158c7eb3a2d2b40
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -565,7 +568,7 @@ pace: false
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: true
+canvas_nest: false
 
 # three_waves
 three_waves: false

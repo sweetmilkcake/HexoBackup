@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: SweetMilkCake's Notes
-subtitle:
-description:
+title: SweetMilkCake's Blog
+subtitle: If you don't write it down, you don't learn it.
+description: Programmer
 author: SweetMilkCake
 language: zh-Hans
 timezone:
